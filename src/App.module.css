@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     background-color: #ffc0cb;
-    transition: transform 0.3s;
+    transition: transform 100ms;
   }
 
   .tugie__circle:hover {

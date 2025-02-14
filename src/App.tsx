@@ -37,7 +37,7 @@ function App() {
       }
       const averageAmplitude = sum / bufferLength;
 
-      if (averageAmplitude > 25) {
+      if (averageAmplitude > 20) {
         pulseVisualizer();
       }
     }
@@ -47,7 +47,7 @@ function App() {
         circleElement.current.style.transform = "scale(1.25)";
         setTimeout(
           () => (circleElement.current!.style.transform = "scale(1)"),
-          200
+          100
         );
       }
     }
