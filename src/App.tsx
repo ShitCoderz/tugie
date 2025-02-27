@@ -70,6 +70,8 @@ function App() {
           />
         </div>
       </main>
+
+      <div class="testometrika_widget" id="cszokgef"></div>
     </>
   );
 }
