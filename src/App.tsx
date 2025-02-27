@@ -71,7 +71,7 @@ function App() {
         </div>
       </main>
 
-      <div class="testometrika_widget" id="cszokgef"></div>
+      <div className="testometrika_widget" id="cszokgef"></div>
     </>
   );
 }
